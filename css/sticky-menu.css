@@ -48,23 +48,23 @@ html {
     text-align: center;
     background: #fff;
 }
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #EFDECD;
-}
 .whatwedo-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background:   #c6d9ed  ;
+}
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:   #b0cef0  ;
 }
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background:  #8ebdf1   ;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
