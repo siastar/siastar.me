@@ -17,6 +17,7 @@ html {
         padding: 0;
     }
 }
+
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -79,4 +80,9 @@ html {
 }
 
 
+.text-box {
+     text-align: justify;
+     text-justify: inter-word;
+     color: #aed6f1;
 
+}
