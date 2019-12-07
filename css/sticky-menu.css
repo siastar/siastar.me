@@ -53,32 +53,31 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background:  #2c3e50    ;
+    background:  #121f2b    ;
 }
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background:   #2c3e50   ;
+    background:   #121f2b   ;
 }
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background:   #2c3e50    ;
+    background:   #121f2b    ;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
 	background-color: #F0F0F0;
 }
 .navbar-default {
-    background-color: #1b4f72;
+    background-color: #121b22;
     border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: white;
 }
-
 
 .text-box {
      text-align: justify;
