@@ -1,73 +1,60 @@
-<!doctype html>
-<!-- template https://html5-templates.com//> -->
+<!DOCTYPE html>
+<html lang="en">
+<title>siastar.me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/sitestyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/contact-form.css" rel="stylesheet">
+<link href="css/icons-grid.css" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
 
-<html lang="en" class="no-js">
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+       href="javascript:void(0);"
+       onclick="myFunction()"
+       title="Toggle Navigation Menu">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>siastar.me</title>
-    <meta name="description" content="this is my personal page">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/contact-form.css" rel="stylesheet">
-    <link href="css/icons-grid.css" rel="stylesheet">
-    <link href="css/sticky-menu.css" rel="stylesheet">
-</head>
+      <!-- <i class="fa fa-bars"></i> -->
+    </a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">English</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Italian</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">gitHub</a>
+  </div>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle menu</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"/>Welcome</a>
-            </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">English</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Italian</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">gitHub</a>
+  </div>
+</div>
 
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <!-- <li> -->
-                    <!-- 	<a class="page-scroll" href="#Home">Home</a> -->
-                    <!-- </li> -->
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h3 class="w3-margin w3-jumbo">Simone Astarita</h3>
+  <!-- <p class="w3-xlarge">Template by w3.css</p> -->
+  <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+</header>
 
-                    <li>
-                        <a class="page-scroll" href="#aboutENG">eng</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#aboutITA">ita</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact Me</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="https://github.com/ytze">GitHub</a>
-                    </li>
-
-
-                </ul>
-            </div> <!-- .navbar-collapse -->
-        </div> <!-- .container -->
-    </nav>
-
-
-
-    <!-- What we do Section -->
-    <section id="Home" class="whatwedo-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Welcome</h1>
-                    <div>
+<!-- Section 1: icons -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-center">
+      <h1>Welcome to my page</h1>
+<div>
                         <div class="section group">
 
                             <div class="col span_1_of_3">
@@ -94,214 +81,300 @@
                                 <img src="images/ico-ReactJS.png" alt="React JS" height="100" width="100" style="padding:10px">
                             </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+			</div>
+    </div>
+  </div>
+</div>
 
-    <!-- About -->
-    <section id="aboutENG" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Me English </h1>
-                </div>
-                <div class="text-box">
+<!-- Section 2: About English -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-center">
+      <h2>English</h2>
+      <div class="w3-text-custom1">
+	<h4>About Me</h4>
+	<p>
+	  what I do professionally is to provide technical solutions to a wide spectrum
+	  of possible requests in the IT environment and beyond.
+	  I'm pretty good at this, because I'm very curious, deeply interested in
+	  technology and not least, I do read the documentation.
+	  In short, I worked years in civil engineering dealing with machine programming,
+	  three-dimensional modeling and prototyping. Later I worked for several years with
+	  Applecare as a remote helpdesk and as a professional trainer in different countries.
+	</p>
+        
+        <h4>Why Code</h4>
+        <p>
+	  I like to write code because I see it as a particularly interesting tool to
+	  apply creativity, I mean, you can potentially do anything.
+	</p>
 
-                    <p>ENGLISH STUFF</p>
-                </div>
-            </div>
-        </div>
-    </section>
+	<h4>What</h4>
+        <p>
+	  Narrowing down from everything to something professionally applicable, I am interested
+	  in data management, CRUD operations and consequently interactions with databases,
+	  construction of customized user interfaces, in order to make these operations accessible
+	  according to specific needs.
+	</p>
 
-    <!-- About ITA-->
-    <section id="aboutITA" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About ITA</h1>
-                </div>
-                <div class="text-box">
-                    <h4>SU DI ME</h4>
+	<h4>Projects</h4>
+        <p>
+	  At the moment my attention is focused on the interaction between client and server,
+	  in particular on the MERN stack that I used in various projects such as shopping carts,
+	  registries, columns, information archives of various kinds, all implemented with their
+	  own CRUD functions, reporting , logins, interfaces for users and administrators.
 
-                    <p>
-		      ciò che faccio professionalmente è fornire soluzioni tecniche ad un ampio spettro di possibili richieste in ambiente IT e non solo.
-                      Sono piuttosto bravo in questo, perchè sono molto curioso, profondamente interessato alle tecnologie e non ultimo, leggo la documentazione.
-		    </p>
+	  Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi. 
+	  
+	  Obviously I have some things loaded on gitHub in case someone wants to take a look.
+	  
+	  Ah... There is also a Simon Game, it's a little rough but working.
+	  It was my first complete project in Javascript.
+	</p>
+	
+	<h4>What I'm interested to develope</h4>
+	<p>
+	  At the moment I am exploring different fields of possible application,
+	  among which I am particularly interested:
 
-                    <p>
-		      In breve, ho lavorato per anni nell'ingegneria civile occupandomi di programmazione macchine, modellazione tridimensionale e prototipazione.
-                      Successivamente ho lavorato diversi anni con Applecare come helpdesk remoto e come trainer professionale in diversi paesi.
-		    </p>
+	  <ul>
+            <li>Communication systems between users.</li>
+            <li>Localized services for the internet of things and home automation.</li>
+            <li>OpenGL 3D web app for browsers.</li>
+            <li>Crittografia e sicurezza dati.</li>
+            <li>Data encryption and security.</li>
+            <li>Artificial Intelligences</li>
+	  </ul>
 
-                    <h4>PERCHE'</h4>
+	</p>
+	<h4>About Coding</h4>
+        <p>
 
-                    <p>
-		      Mi piace scrivere codice perchè lo ritengo uno strumento particolarmente interessante per applicare
-                      la propia creatività, voglio dire, potenzialmente si può fare qualunque cosa.
-		    </p>
+	  I like to write algorithms, but not so much that I want to do it and
+	  do it over and over again, so I try to write things that can be easily
+	  reconfigured for future reuse.
+	  I find it very convenient to use Node and npm, both for the vast amount of software
+	  available and for the linux-style package management system, with which I immediately
+	  felt at ease from the very biginning I started to use it.
+	  I tend to be a functional programmer, but when it's appropriate I don't have
+	  problems with the object approach, encapsulation and process automation.
+	  How can you resist the charm of objects that create and configure other objects
+	  that do things according to the situation?
+	
+        <h4>GLI STRUMENTI CHE UTILIZZO</h4>
+	<h5>SISTEMI OPERATIVI</h5>
+        <p>
+	  Al di la delle preferenze personali, come programmatore trovo che l’utilizzo di sistemi Linux faciliti la vita e permetta di concentrarsi sulla scrittura. Non è da poco avere uno strumento che banalmente permetta di lanciare da un singolo terminale, server, client e database, con un singola linea di comando e non doversene più preoccupare per tutta la sessione.
+	  Ho utilizzato Ubuntu per molti anni dopodichè sono passato a Debian dalla versione 9. Installazione e transizione più facile di sempre.
+	<p/>
+		    
+	<h5>EDITOR</h5>
+	<p>
+          Ho usato Sublime e Atom per un po’ di tempo poi sono passato ad Emacs per via della sua leggerezza e reattività. Ho scoperto un mondo.
+	<p/>
+	<h5>LINGUAGGI DI PROGRAMMAZIONE</h5>
+	<p>
+          Al momento programmo in Javascript, html e CSS ed in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende. (PHP in todo list)
+	<p/>
+        <h5>PIATTAFORME</h5>
+	<p>
+	  Node e la quantità incredibile di pacchetti disponibili.
+	<p/>
+	<h5>FRAMEWORKS<h5/>
+	<p>
+	  React e Bootstrap per le interfacce (Angular in todo list)
+	<p/>
+        <h5>DATABASE<h5/>
+	<p>
+	  Mongo, scelta più conveniente da accoppiare con Javascript, anche considerando
+	  tutti gli strumenti che Node mette a disposizione per eseguire azioni e richieste sul database.
+	  Tra le varie opzioni preferisco Mongoose.
+	<p/>
+        <h5>BACKEND <h5/>
+	<p>
+	 Costruzione server di comunicazione mediante Node Express, http-server.
+	<p/>
+	<h5>FRONT END<h5/>
+	<p>
+	  creazione interfacce utente mediante React, Redux
+	<p/>
+	<h5>DISPONIBILITA<h5/>
+	<p>
+	  Sono decisamente disponibile
+	  Per focalizzare l’attenzione sulla programmazione sono passato da un lavoro fulltime ad un part time e sono
+	  totalmente orientato a questo tipo di professione, che a seguito di diverse considerazioni appare l’opzione migliore,
+	  specialmente ragionando in prospettiva.
+	  Sono contattabile direttamente da questa pagina
+	 <p/>
+      </div>
 
-                    <h4>COSA</h4>
+    <div class="w3-third w3-center">
+      <!-- <i class="fa fa-anchor w3-padding-64 w3-text-red"></i> -->
+    </div>
+  </div>
+</div>
 
-                    <p>
-		      Restringendo il campo dal tutto a qualcosa di professionalmente applicabile, mi interesso di gestione dei dati, operazioni CRUD e di conseguenza
-                      delle interazioni con i database e costruisco interfacce utente customizzate per poter rendere tali operazioni accessibili a seconda delle esigenze specifiche.
-		    </p>
+<!-- Section 3: About Italian -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-center">
+      <h1>About Me ITA</h1>
+      <div class="w3-text-custom1">
+<h4>SU DI ME</h4>
+        <p>
+	  Ciò che faccio professionalmente è fornire soluzioni tecniche ad un ampio spettro di possibili richieste in ambiente IT e non solo.
+          Sono piuttosto bravo in questo, perchè sono molto curioso, profondamente interessato alle tecnologie e non ultimo, leggo la documentazione.
+	</p>
+        <p>
+	  In breve, ho lavorato per anni nell'ingegneria civile occupandomi di programmazione macchine, modellazione tridimensionale e prototipazione.
+          Successivamente ho lavorato diversi anni con Applecare come helpdesk remoto e come trainer professionale in diversi paesi.
+	</p>
+        <h4>PERCHE'</h4>
+        <p>
+	  Mi piace scrivere codice perchè lo ritengo uno strumento particolarmente interessante per applicare
+          la propia creatività, voglio dire, potenzialmente si può fare qualunque cosa.
+	</p>
+        <h4>COSA</h4>
+        <p>
+	  Restringendo il campo dal tutto a qualcosa di professionalmente applicabile, mi interesso di gestione dei dati, operazioni CRUD e di conseguenza
+          delle interazioni con i database e costruisco interfacce utente customizzate per poter rendere tali operazioni accessibili a seconda delle esigenze specifiche.
+	</p>
+        <h4>PROGETTI</h4>
+        <p>
+	  Al momento la mia attenzione è concentrata sull'interazione tra client e server ed in particolare sullo stack MERN che ho utilizzato in diversi
+          progetti come shopping carts, anagrafiche, rubriche, archivi di informazioni di vario genere, tutti implementati con le proprie funzioni CRUD,
+          reportistica, login, interfacce per utenti ed amministratori.
+          Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi.
+          Ovviamente ho alcune cose caricate su gitHub nel caso qualcuno volesse dare un'occhiata.
+          Ah... C’è anche un Simon Game, un po’ grezzo ma funzionante.
+          E' stato il mio primo progetto completo in Javascript.
+	</p>
+	<h4>QUELLO CHE MI INTERESSA FARE</h4>
+	<p>Al momento sto esplorando diversi settori di possibile applicazione, tra i quali in maniera particolare mi interessano:
+	  <ul>
+            <li>Sistemi di comunicazione tra utenti.</li>
+            <li>Servizi localizzati per l’internet of things e la domotica.</li>
+            <li>Web app 3D openGL nei browsers.</li>
+            <li>Crittografia e sicurezza dati.</li>
+            <li>Sviluppo delle applicazioni mobile.</li>
+            <li>Intelligenze Artificiali</li>
+	  </ul>
+	</p>
+	<h4>SULLA PROGRAMMAZIONE</h4>
+        <p>
+	  Mi piace scrivere algoritmi, ma non così tanto da volerlo fare e rifare all’infinito, quindi cerco di scrivere cose che
+          possano essere facilmente riconfigurabili per riutilizzi futuro.
+	</p>
+        <p>
+	  trovo molto conveniente l’utilizzo di Node ed npm, sia per la vastità di software disponibile che per il sistema
+          Linux-style di gestione dei pacchetti, con il quale mi sono trovato immediatamente a mio agio.
+          Tendenzialmente sono un programmatore funzionale, ma quando è opportuno non ho problemi con
+          l'approccio ad oggetti, incapsulamento e automazione dei processi.
+	</p>
+	<p>
+	  Come resistere al fascino di oggetti che creano e configurano altri oggetti che fanno cose a seconda della situazione?
+	</p>
+        <h4>GLI STRUMENTI CHE UTILIZZO</h4>
+	<h5>SISTEMI OPERATIVI</h5>
+        <p>
+	  Al di la delle preferenze personali, come programmatore trovo che l’utilizzo di sistemi Linux faciliti la vita e permetta di concentrarsi sulla scrittura. Non è da poco avere uno strumento che banalmente permetta di lanciare da un singolo terminale, server, client e database, con un singola linea di comando e non doversene più preoccupare per tutta la sessione.
+	  Ho utilizzato Ubuntu per molti anni dopodichè sono passato a Debian dalla versione 9. Installazione e transizione più facile di sempre.
+	<p/>
+		    
+	<h5>EDITOR</h5>
+	<p>
+          Ho usato Sublime e Atom per un po’ di tempo poi sono passato ad Emacs per via della sua leggerezza e reattività. Ho scoperto un mondo.
+	<p/>
+	<h5>LINGUAGGI DI PROGRAMMAZIONE</h5>
+	<p>
+          Al momento programmo in Javascript, html e CSS ed in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende. (PHP in todo list)
+	<p/>
+        <h5>PIATTAFORME</h5>
+	<p>
+	  Node e la quantità incredibile di pacchetti disponibili.
+	<p/>
+	<h5>FRAMEWORKS<h5/>
+	<p>
+	  React e Bootstrap per le interfacce (Angular in todo list)
+	<p/>
+        <h5>DATABASE<h5/>
+	<p>
+	  Mongo, scelta più conveniente da accoppiare con Javascript, anche considerando
+	  tutti gli strumenti che Node mette a disposizione per eseguire azioni e richieste sul database.
+	  Tra le varie opzioni preferisco Mongoose.
+	<p/>
+        <h5>BACKEND <h5/>
+	<p>
+	 Costruzione server di comunicazione mediante Node Express, http-server.
+	<p/>
+	<h5>FRONT END<h5/>
+	<p>
+	  creazione interfacce utente mediante React, Redux
+	<p/>
+	<h5>DISPONIBILITA<h5/>
+	<p>
+	  Sono decisamente disponibile
+	  Per focalizzare l’attenzione sulla programmazione sono passato da un lavoro fulltime ad un part time e sono
+	  totalmente orientato a questo tipo di professione, che a seguito di diverse considerazioni appare l’opzione migliore,
+	  specialmente ragionando in prospettiva.
+	  Sono contattabile direttamente da questa pagina
+	<p/>
+      </div>
 
-                    <h4>PROGETTI</h4>
+    </div>
 
-                    <p>
-		      Al momento la mia attenzione è concentrata sull'interazione tra client e server ed in particolare sullo stack MERN che ho utilizzato in diversi
-                        progetti come shopping carts, anagrafiche, rubriche, archivi di informazioni di vario genere, tutti implementati con le proprie funzioni CRUD,
-                        reportistica, login, interfacce per utenti ed amministratori.
-
-                        Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi.
-
-                        Ovviamente ho alcune cose caricate su gitHub nel caso qualcuno volesse dare un'occhiata.
-
-                        Ah... C’è anche un Simon Game, un po’ grezzo ma funzionante.
-
-                      E' stato il mio primo progetto completo in Javascript.
-		    </p>
-
-		    <h4>QUELLO CHE MI INTERESSA FARE</h4>
-
-		    <p>Al momento sto esplorando diversi settori di possibile applicazione, tra i quali in maniera particolare mi interessano:
-
-		      <ul>
-                                    <li>Sistemi di comunicazione tra utenti.</li>
-                                    <li>Servizi localizzati per l’internet of things e la domotica.</li>
-                                    <li>Web app 3D openGL nei browsers.</li>
-                                    <li>Crittografia e sicurezza dati.</li>
-                                    <li>Sviluppo delle applicazioni mobile.</li>
-                                    <li>Intelligenze Artificiali</li>
-		      </ul>
-
-		    </p>
-
-		    <h4>SULLA PROGRAMMAZIONE</h4>
-
-                    <p>
-		      Mi piace scrivere algoritmi, ma non così tanto da volerlo fare e rifare all’infinito, quindi cerco di scrivere cose che
-                      possano essere facilmente riconfigurabili per riutilizzi futuro.
-		    </p>
-
-                    <p>
-		      trovo molto conveniente l’utilizzo di Node ed npm, sia per la vastità di software disponibile che per il sistema
-                      Linux-style di gestione dei pacchetti, con il quale mi sono trovato immediatamente a mio agio.
-                      Tendenzialmente sono un programmatore funzionale, ma quando è opportuno non ho problemi con
-                      l'approccio ad oggetti, incapsulamento e automazione dei processi.
-		    </p>
-
-		    <p>
-		      Come resistere al fascino di oggetti che creano e configurano altri oggetti che fanno cose a seconda della situazione?
-		    </p>
-
-                    <h4>GLI STRUMENTI CHE UTILIZZO</h4>
-
-		    <h5>SISTEMA OPERATIVO</h5>
-
-                    <p>
-		      Al di la delle preferenze personali, come programmatore trovo che l’utilizzo di sistemi Linux faciliti la vita e permetta di concentrarsi sulla scrittura. Non è da poco avere uno strumento che banalmente permetta di lanciare da un singolo terminale, server, client e database, con un singola linea di comando e non doversene più preoccupare per tutta la sessione.
-		      Ho utilizzato Ubuntu per molti anni dopodichè sono passato a Debian dalla versione 9. Installazione e transizione più facile di sempre.
-		    <p/>
-			    
-		    <h5>EDITOR</h5>
-
-		    <p>
-                      Ho usato Sublime e Atom per un po’ di tempo poi sono passato ad Emacs per via della sua leggerezza e reattività. Ho scoperto un mondo.
-		    <p/>
-
-		    <h5>LINGUAGGI DI PROGRAMMAZIONE</h5>
-
-		    <p>
-                      Al momento programmo in Javascript, html e CSS ed in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende. (PHP in todo list)
-		    <p/>
-
-                    <h5>PIATTAFORME</h5>
-
-		    <p>
-		      Node e la quantità incredibile di pacchetti disponibili.
-		    <p/>
-
-		    <h5>FRAMEWORKS<h5/>
-
-		      <p>
-			React e Bootstrap per le interfacce (Angular in todo list)
-		      <p/>
-
-		    <h5>DATABASE<h5/>
-
-			<p>
-			  Mongo, scelta più conveniente da accoppiare con Javascript, anche considerando
-			  tutti gli strumenti che Node mette a disposizione per eseguire azioni e richieste sul database.
-			  Tra le varie opzioni preferisco Mongoose.
-			<p/>
-
-	            <h5>BACKEND <h5/>
-
-			  <p>
-			    costruzione server di comunicazione mediante Node Express, http-server.
-			  <p/>
-
-		    <h5>FRONT END<h5/>
-
-			    <p>
-			      creazione interfacce utente mediante React, Redux
-			    <p/>
-
-		    <h5>DISPONIBILITA<h5/>
-
-			      <p>
-				Sono decisamente disponibile
-				Per focalizzare l’attenzione sulla programmazione sono passato da un lavoro fulltime ad un part time e sono
-				totalmente orientato a questo tipo di professione, che a seguito di diverse considerazioni appare l’opzione migliore,
-				specialmente ragionando in prospettiva.
-				So contattabile direttamente da questa pagina
-			      <p/>
-
-		</div>
-            </div>
-        </div>
-    </section>
+  </div>
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Me</h1>
-                    <div>
-                        <div class="container">
-                            <form id="contact" action="https://formspree.io/xnqndqnn" method="POST">
-                                <input type="text" name="name" class="feedback-input" placeholder="Name"/>
-                                <input type="text" name="email" class="feedback-input" placeholder="Email"/>
-                                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                                <input type="submit" value="SUBMIT"/>
-                            </form>
-                        </div>
+</div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+</div>
+<div class="w3-third w3-center">
+      <!-- <i class="fa fa-anchor w3-padding-64 w3-text-red"></i> -->
+</div>
+</div>
+</div>
 
-    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Section 4: contacts -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <!-- <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i> -->
+    </div>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/sticky-menu.js"></script>
+    <div class="w3-twothird">
+      <h1>Contacts</h1>
+      <!-- <h5 class="w3-padding-32">is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+      <div>
+        <form id="contact" action="https://formspree.io/xnqndqnn" method="POST">
+          <input type="text" name="name" class="feedback-input" placeholder="Name"/>
+          <input type="text" name="email" class="feedback-input" placeholder="Email"/>
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ 
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 </body>
-
 </html>

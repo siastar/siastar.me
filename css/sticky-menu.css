@@ -48,24 +48,28 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    position: relative;
 }
-.whatwedo-section {
+.whatIdo-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background:  #121f2b    ;
+    position: relative;
 }
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background:   #121f2b   ;
+    position: relative;
 }
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background:   #121f2b    ;
+    position: relative;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
@@ -83,5 +87,7 @@ html {
      text-align: justify;
      text-justify: inter-word;
      color: #aed6f1;
+     background: grey; 
+     /* height: auto;   */
 
 }
