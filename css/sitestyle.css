@@ -1593,6 +1593,19 @@ a {
     background-color: #f44336 !important
 }
 
+.w3-custom1,
+.w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #121b22 !important
+    /* #131118 */
+}
+
+.w3-custom-header,
+.w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #131118 !important
+}
+
 .w3-sand,
 .w3-hover-sand:hover {
     color: #000 !important;
@@ -1636,7 +1649,7 @@ a {
 .w3-light-gray,
 .w3-hover-light-gray:hover {
     color: #000 !important;
-    background-color: #f1f1f1 !important
+    background-color: #131118 !important
 }
 
 .w3-dark-grey,

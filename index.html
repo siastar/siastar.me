@@ -10,371 +10,431 @@
 <link href="css/contact-form.css" rel="stylesheet">
 <link href="css/icons-grid.css" rel="stylesheet">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+        font-size: 200px
+    }
 </style>
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
-       href="javascript:void(0);"
-       onclick="myFunction()"
-       title="Toggle Navigation Menu">
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-custom1  w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+            </a>
+            <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#English" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">English</a>
+            <a href="#Italian" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Italian</a>
+            <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
+            <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">gitHub</a>
+        </div>
 
-      <!-- <i class="fa fa-bars"></i> -->
-    </a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">English</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Italian</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">gitHub</a>
-  </div>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">English</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Italian</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">gitHub</a>
+        </div>
+    </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">English</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Italian</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">gitHub</a>
-  </div>
-</div>
+    <!-- Header -->
+    <header class="w3-container w3-custom-header w3-center" style="padding:64px 16px">
+        <h3 class="w3-margin w3-jumbo">Simone Astarita</h3>
+        <!-- <p class="w3-xlarge">Template by w3.css</p> -->
+        <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+    </header>
 
-<!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h3 class="w3-margin w3-jumbo">Simone Astarita</h3>
-  <!-- <p class="w3-xlarge">Template by w3.css</p> -->
-  <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
-</header>
+    <!-- Section 1: icons -->
+    <section id="Home">
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-center">
+                    <h1>Welcome to my page</h1>
 
-<!-- Section 1: icons -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-center">
-      <h1>Welcome to my page</h1>
-<div>
+                    <div>
                         <div class="section group">
-
                             <div class="col span_1_of_3">
                                 <img src="images/ico-HTML.png" alt="HTML" height="100" width="100" style="padding:10px">
-                                <br/>
+                                <br />
                                 <img src="images/ico-MongoDB.png" alt="MongoDB" height="100" width="100" style="padding:10px">
-                                <br/>
+                                <br />
                                 <img src="images/ico-ExpressJS.png" alt="Express JS" height="100" width="100" style="padding:10px">
                             </div>
-
                             <div class="col span_1_of_3">
                                 <img src="images/ico-CSS.png" alt="CSS" height="100" width="100" style="padding:10px">
-                                <br/>
+                                <br />
                                 <img src="images/ico-Webpack.png" alt="Webpack" height="100" width="100" style="padding:10px">
-                                <br/>
+                                <br />
                                 <img src="images/ico-ReduxJS.png" alt="Redux" height="100" width="100" style="padding:10px">
                             </div>
-
                             <div class="col span_1_of_3">
                                 <img src="images/ico-Javascript.png" alt="Javascript" height="100" width="100" style="padding:10px">
-                                <br/>
+                                <br />
                                 <img src="images/ico-NodeJS.png" alt="Node JS" height="100" width="100" style="padding:10px">
-                                <br/>
+                                <br />
                                 <img src="images/ico-ReactJS.png" alt="React JS" height="100" width="100" style="padding:10px">
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-			</div>
-    </div>
-  </div>
-</div>
+    <!-- Section 2: About English -->
+    <section id="English">
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-center">
+                    <h2>English</h2>
+                    <div class="w3-text-custom1">
+                        <h4><b>About Me</b></h4>
 
-<!-- Section 2: About English -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-center">
-      <h2>English</h2>
-      <div class="w3-text-custom1">
-	<h4>About Me</h4>
-	<p>
-	  what I do professionally is to provide technical solutions to a wide spectrum
-	  of possible requests in the IT environment and beyond.
-	  I'm pretty good at this, because I'm very curious, deeply interested in
-	  technology and not least, I do read the documentation.
-	  In short, I worked years in civil engineering dealing with machine programming,
-	  three-dimensional modeling and prototyping. Later I worked for several years with
-	  Applecare as a remote helpdesk and as a professional trainer in different countries.
-	</p>
-        
-        <h4>Why Code</h4>
-        <p>
-	  I like to write code because I see it as a particularly interesting tool to
-	  apply creativity, I mean, you can potentially do anything.
-	</p>
+                        <p>
+                            what I do professionally is to provide technical solutions to a wide spectrum
+                            of possible requests in the IT environment and beyond.
+                            I'm pretty good at this, because I'm very curious, deeply interested in
+                            technology and not least, I do read the documentation.
+                            In short, I worked years in civil engineering dealing with machine programming,
+                            three-dimensional modeling and prototyping. Later I worked for several years with
+                            Applecare as a remote helpdesk and as a professional trainer in different countries.
+                        </p>
 
-	<h4>What</h4>
-        <p>
-	  Narrowing down from everything to something professionally applicable, I am interested
-	  in data management, CRUD operations and consequently interactions with databases,
-	  construction of customized user interfaces, in order to make these operations accessible
-	  according to specific needs.
-	</p>
+                        <h4><b>Why Code</b></h4>
 
-	<h4>Projects</h4>
-        <p>
-	  At the moment my attention is focused on the interaction between client and server,
-	  in particular on the MERN stack that I used in various projects such as shopping carts,
-	  registries, columns, information archives of various kinds, all implemented with their
-	  own CRUD functions, reporting , logins, interfaces for users and administrators.
+                        <p>
+                            I like to write code because I see it as a particularly interesting tool to
+                            apply creativity, I mean, you can potentially do anything.
+                        </p>
 
-	  Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi. 
-	  
-	  Obviously I have some things loaded on gitHub in case someone wants to take a look.
-	  
-	  Ah... There is also a Simon Game, it's a little rough but working.
-	  It was my first complete project in Javascript.
-	</p>
-	
-	<h4>What I'm interested to develope</h4>
-	<p>
-	  At the moment I am exploring different fields of possible application,
-	  among which I am particularly interested:
+                        <h4><b>What I Code</b></h4>
 
-	  <ul>
-            <li>Communication systems between users.</li>
-            <li>Localized services for the internet of things and home automation.</li>
-            <li>OpenGL 3D web app for browsers.</li>
-            <li>Crittografia e sicurezza dati.</li>
-            <li>Data encryption and security.</li>
-            <li>Artificial Intelligences</li>
-	  </ul>
+                        <p>
+                            Narrowing down from everything to something professionally applicable, I am interested
+                            in data management, CRUD operations and consequently interactions with databases,
+                            construction of customized user interfaces, in order to make these operations accessible
+                            according to specific needs.
+                        </p>
 
-	</p>
-	<h4>About Coding</h4>
-        <p>
+                        <h4><b>Projects</b></h4>
 
-	  I like to write algorithms, but not so much that I want to do it and
-	  do it over and over again, so I try to write things that can be easily
-	  reconfigured for future reuse.
-	  I find it very convenient to use Node and npm, both for the vast amount of software
-	  available and for the linux-style package management system, with which I immediately
-	  felt at ease from the very biginning I started to use it.
-	  I tend to be a functional programmer, but when it's appropriate I don't have
-	  problems with the object approach, encapsulation and process automation.
-	  How can you resist the charm of objects that create and configure other objects
-	  that do things according to the situation?
-	
-        <h4>GLI STRUMENTI CHE UTILIZZO</h4>
-	<h5>SISTEMI OPERATIVI</h5>
-        <p>
-	  Al di la delle preferenze personali, come programmatore trovo che l’utilizzo di sistemi Linux faciliti la vita e permetta di concentrarsi sulla scrittura. Non è da poco avere uno strumento che banalmente permetta di lanciare da un singolo terminale, server, client e database, con un singola linea di comando e non doversene più preoccupare per tutta la sessione.
-	  Ho utilizzato Ubuntu per molti anni dopodichè sono passato a Debian dalla versione 9. Installazione e transizione più facile di sempre.
-	<p/>
-		    
-	<h5>EDITOR</h5>
-	<p>
-          Ho usato Sublime e Atom per un po’ di tempo poi sono passato ad Emacs per via della sua leggerezza e reattività. Ho scoperto un mondo.
-	<p/>
-	<h5>LINGUAGGI DI PROGRAMMAZIONE</h5>
-	<p>
-          Al momento programmo in Javascript, html e CSS ed in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende. (PHP in todo list)
-	<p/>
-        <h5>PIATTAFORME</h5>
-	<p>
-	  Node e la quantità incredibile di pacchetti disponibili.
-	<p/>
-	<h5>FRAMEWORKS<h5/>
-	<p>
-	  React e Bootstrap per le interfacce (Angular in todo list)
-	<p/>
-        <h5>DATABASE<h5/>
-	<p>
-	  Mongo, scelta più conveniente da accoppiare con Javascript, anche considerando
-	  tutti gli strumenti che Node mette a disposizione per eseguire azioni e richieste sul database.
-	  Tra le varie opzioni preferisco Mongoose.
-	<p/>
-        <h5>BACKEND <h5/>
-	<p>
-	 Costruzione server di comunicazione mediante Node Express, http-server.
-	<p/>
-	<h5>FRONT END<h5/>
-	<p>
-	  creazione interfacce utente mediante React, Redux
-	<p/>
-	<h5>DISPONIBILITA<h5/>
-	<p>
-	  Sono decisamente disponibile
-	  Per focalizzare l’attenzione sulla programmazione sono passato da un lavoro fulltime ad un part time e sono
-	  totalmente orientato a questo tipo di professione, che a seguito di diverse considerazioni appare l’opzione migliore,
-	  specialmente ragionando in prospettiva.
-	  Sono contattabile direttamente da questa pagina
-	 <p/>
-      </div>
+                        <p>
+                            At the moment my attention is focused on the interaction between client and server,
+                            in particular on the MERN stack that I used in various projects such as shopping carts,
+                            registries, columns, information archives of various kinds, all implemented with their
+                            own CRUD functions, reporting , logins, interfaces for users and administrators.
+                            Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi.
+                            Obviously I have some things loaded on gitHub in case someone wants to take a look.
+                            Ah... There is also a Simon Game, it's a little rough but working.
+                            It was my first complete project in Javascript.
+                        </p>
 
-    <div class="w3-third w3-center">
-      <!-- <i class="fa fa-anchor w3-padding-64 w3-text-red"></i> -->
-    </div>
-  </div>
-</div>
+                        <h4>What I'm interested to develope</h4>
 
-<!-- Section 3: About Italian -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-center">
-      <h1>About Me ITA</h1>
-      <div class="w3-text-custom1">
-<h4>SU DI ME</h4>
-        <p>
-	  Ciò che faccio professionalmente è fornire soluzioni tecniche ad un ampio spettro di possibili richieste in ambiente IT e non solo.
-          Sono piuttosto bravo in questo, perchè sono molto curioso, profondamente interessato alle tecnologie e non ultimo, leggo la documentazione.
-	</p>
-        <p>
-	  In breve, ho lavorato per anni nell'ingegneria civile occupandomi di programmazione macchine, modellazione tridimensionale e prototipazione.
-          Successivamente ho lavorato diversi anni con Applecare come helpdesk remoto e come trainer professionale in diversi paesi.
-	</p>
-        <h4>PERCHE'</h4>
-        <p>
-	  Mi piace scrivere codice perchè lo ritengo uno strumento particolarmente interessante per applicare
-          la propia creatività, voglio dire, potenzialmente si può fare qualunque cosa.
-	</p>
-        <h4>COSA</h4>
-        <p>
-	  Restringendo il campo dal tutto a qualcosa di professionalmente applicabile, mi interesso di gestione dei dati, operazioni CRUD e di conseguenza
-          delle interazioni con i database e costruisco interfacce utente customizzate per poter rendere tali operazioni accessibili a seconda delle esigenze specifiche.
-	</p>
-        <h4>PROGETTI</h4>
-        <p>
-	  Al momento la mia attenzione è concentrata sull'interazione tra client e server ed in particolare sullo stack MERN che ho utilizzato in diversi
-          progetti come shopping carts, anagrafiche, rubriche, archivi di informazioni di vario genere, tutti implementati con le proprie funzioni CRUD,
-          reportistica, login, interfacce per utenti ed amministratori.
-          Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi.
-          Ovviamente ho alcune cose caricate su gitHub nel caso qualcuno volesse dare un'occhiata.
-          Ah... C’è anche un Simon Game, un po’ grezzo ma funzionante.
-          E' stato il mio primo progetto completo in Javascript.
-	</p>
-	<h4>QUELLO CHE MI INTERESSA FARE</h4>
-	<p>Al momento sto esplorando diversi settori di possibile applicazione, tra i quali in maniera particolare mi interessano:
-	  <ul>
-            <li>Sistemi di comunicazione tra utenti.</li>
-            <li>Servizi localizzati per l’internet of things e la domotica.</li>
-            <li>Web app 3D openGL nei browsers.</li>
-            <li>Crittografia e sicurezza dati.</li>
-            <li>Sviluppo delle applicazioni mobile.</li>
-            <li>Intelligenze Artificiali</li>
-	  </ul>
-	</p>
-	<h4>SULLA PROGRAMMAZIONE</h4>
-        <p>
-	  Mi piace scrivere algoritmi, ma non così tanto da volerlo fare e rifare all’infinito, quindi cerco di scrivere cose che
-          possano essere facilmente riconfigurabili per riutilizzi futuro.
-	</p>
-        <p>
-	  trovo molto conveniente l’utilizzo di Node ed npm, sia per la vastità di software disponibile che per il sistema
-          Linux-style di gestione dei pacchetti, con il quale mi sono trovato immediatamente a mio agio.
-          Tendenzialmente sono un programmatore funzionale, ma quando è opportuno non ho problemi con
-          l'approccio ad oggetti, incapsulamento e automazione dei processi.
-	</p>
-	<p>
-	  Come resistere al fascino di oggetti che creano e configurano altri oggetti che fanno cose a seconda della situazione?
-	</p>
-        <h4>GLI STRUMENTI CHE UTILIZZO</h4>
-	<h5>SISTEMI OPERATIVI</h5>
-        <p>
-	  Al di la delle preferenze personali, come programmatore trovo che l’utilizzo di sistemi Linux faciliti la vita e permetta di concentrarsi sulla scrittura. Non è da poco avere uno strumento che banalmente permetta di lanciare da un singolo terminale, server, client e database, con un singola linea di comando e non doversene più preoccupare per tutta la sessione.
-	  Ho utilizzato Ubuntu per molti anni dopodichè sono passato a Debian dalla versione 9. Installazione e transizione più facile di sempre.
-	<p/>
-		    
-	<h5>EDITOR</h5>
-	<p>
-          Ho usato Sublime e Atom per un po’ di tempo poi sono passato ad Emacs per via della sua leggerezza e reattività. Ho scoperto un mondo.
-	<p/>
-	<h5>LINGUAGGI DI PROGRAMMAZIONE</h5>
-	<p>
-          Al momento programmo in Javascript, html e CSS ed in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende. (PHP in todo list)
-	<p/>
-        <h5>PIATTAFORME</h5>
-	<p>
-	  Node e la quantità incredibile di pacchetti disponibili.
-	<p/>
-	<h5>FRAMEWORKS<h5/>
-	<p>
-	  React e Bootstrap per le interfacce (Angular in todo list)
-	<p/>
-        <h5>DATABASE<h5/>
-	<p>
-	  Mongo, scelta più conveniente da accoppiare con Javascript, anche considerando
-	  tutti gli strumenti che Node mette a disposizione per eseguire azioni e richieste sul database.
-	  Tra le varie opzioni preferisco Mongoose.
-	<p/>
-        <h5>BACKEND <h5/>
-	<p>
-	 Costruzione server di comunicazione mediante Node Express, http-server.
-	<p/>
-	<h5>FRONT END<h5/>
-	<p>
-	  creazione interfacce utente mediante React, Redux
-	<p/>
-	<h5>DISPONIBILITA<h5/>
-	<p>
-	  Sono decisamente disponibile
-	  Per focalizzare l’attenzione sulla programmazione sono passato da un lavoro fulltime ad un part time e sono
-	  totalmente orientato a questo tipo di professione, che a seguito di diverse considerazioni appare l’opzione migliore,
-	  specialmente ragionando in prospettiva.
-	  Sono contattabile direttamente da questa pagina
-	<p/>
-      </div>
+                        <p>
+                            At the moment I am exploring different fields of possible application,
+                            among which I am particularly interested:
+                        </p>
 
-    </div>
+                        <ul>
+                            <li>Communication systems between users.</li>
+                            <li>Localized services for the internet of things and home automation.</li>
+                            <li>OpenGL 3D web app for browsers.</li>
+                            <li>Crittografia e sicurezza dati.</li>
+                            <li>Data encryption and security.</li>
+                            <li>Artificial Intelligences</li>
+                        </ul>
 
-  </div>
+                        <h4><b>About Coding</b></h4>
+
+                        <p>
+                            I like to write algorithms, but not so much that I want to do it and
+                            do it over and over again, so I try to write things that can be easily
+                            reconfigured for future reuse.
+                            I find it very convenient to use Node and npm, both for the vast amount of software
+                            available and for the linux-style package management system, with which I immediately
+                            felt at ease from the very biginning I started to use it.
+                            I tend to be a functional programmer, but when it's appropriate I don't have
+                            problems with the object approach, encapsulation and process automation.
+                            How can you resist the charm of objects that create and configure other objects
+                            that do things according to the situation?
+                        </p>
+
+                        <h3><b>What I use:</b></h3>
+
+                        <h4><b>Operative System</b></h4>
+
+                        <p>
+                            Beyond personal preferences, as a programmer I find that using Linux systems makes
+                            life easier and allows you to concentrate on writing. It is not a trivial matter
+                            to have a tool that natively allows users to run from the terminal, servers, clients
+                            and databases, and no longer have to worry about it throughout the session.
+                            I have been using Ubuntu for many years after which I switched to Debian from
+                            version 9. Installation and transition easier than ever.
+                        </p>
+
+                        <h4><b>Editor</b></h4>
+
+                        <p>
+                            I used Sublime and Atom for a while then I switched to Emacs because of its
+                            lightness and responsiveness. Starting from there, I discovered a world.
+                        </p>
+
+                        <h4><b>Languages</b></h4>
+
+                        <p>
+                            I program in Javascript, html and CSS and in the past I used C++
+                            to create specific management systems for small companies.
+                            (PHP in todo list)
+                        </p>
+
+                        <h4><b>Platforms</b></h4>
+
+                        <p>
+                            Node and its amazing amount of available packages (npm).
+                        </p>
+
+                        <h4><b>Frameworks</b></h4>
+
+                        <p>
+                            React e Bootstrap to build interfaces (Angular in todo list)
+                        </p>
+
+                        <h4><b>Databases</b></h4>
+
+                        <p>
+                            Mongo, a very convenient choice to pair with Javascript, even considering
+                            all the tools that Node provides to perform actions and requests on the database.
+                            Among the various options I prefer Mongoose.
+                        </p>
+
+                        <h4><b>Back End</b></h4>
+
+                        <p>
+                            server setup and managenment using Node Express, http-server and other tools.
+                        </p>
+
+                        <h5><b>Front End</b></h5>
+
+                        <p>
+                            user and admin interfaces with React and Redux
+                        </p>
+
+                        <h4><b>Availability</b></h4>
+
+                        <p>
+                            I'm definitely available
+                            To focus attention on programming, I switched from a fulltime job to a part-time
+                            job and I am totally oriented towards this type of profession, which following
+                            different considerations appears to be the best option, especially in the long distance.
+                            I can be contacted directly from this page
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: About Italian -->
+    </section>
+    <section id="Italian">
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-center">
+                    <h1>Italiano</h1>
+                    <div class="w3-text-custom1">
+
+                        <h4><b>Su di me...</b></h4>
+
+                        <p>
+                            Ciò che faccio professionalmente è fornire soluzioni tecniche ad un ampio spettro di possibili richieste in ambiente IT e non solo.
+                            Sono piuttosto bravo in questo, perchè sono molto curioso, profondamente interessato alle tecnologie e non ultimo, leggo la documentazione.
+                            In breve, ho lavorato per anni nell'ingegneria civile occupandomi di programmazione macchine, modellazione tridimensionale e prototipazione.
+                            Successivamente ho lavorato diversi anni con Applecare come helpdesk remoto e come trainer professionale in diversi paesi.
+                        </p>
+
+                        <h4><b>Perchè programmo</b></h4>
+
+                        <p>
+                            Mi piace scrivere codice perchè lo ritengo uno strumento particolarmente interessante per applicare
+                            la propia creatività, voglio dire, potenzialmente si può fare qualunque cosa.
+                        </p>
+
+                        <h4><b>Cosa programmo</b></h4>
+
+                        <p>
+                            Restringendo il campo dal tutto a qualcosa di professionalmente applicabile, mi interesso di gestione dei dati, operazioni CRUD e di conseguenza
+                            delle interazioni con i database e costruisco interfacce utente customizzate per poter rendere tali operazioni accessibili a seconda delle esigenze specifiche.
+                        </p>
+
+                        <h4><b>I miei progetti</b></h4>
+
+                        <p>
+                            Al momento la mia attenzione è concentrata sull'interazione tra client e server ed in particolare sullo stack MERN che ho utilizzato in diversi
+                            progetti come shopping carts, anagrafiche, rubriche, archivi di informazioni di vario genere, tutti implementati con le proprie funzioni CRUD,
+                            reportistica, login, interfacce per utenti ed amministratori.
+                            Se avete a che fare con richiesta, manipolazione e restituzione dati da una parte all'altra, contattatemi.
+                            Ovviamente ho alcune cose caricate su gitHub nel caso qualcuno volesse dare un'occhiata.
+                            Ah... C’è anche un Simon Game, un po’ grezzo ma funzionante.
+                            E' stato il mio primo progetto completo in Javascript.
+                        </p>
+
+                        <h4><b>Ciò che mi interessa sviluppare</b></h4>
+
+                        <p>Al momento sto esplorando diversi settori di possibile applicazione, tra i quali
+                            in maniera particolare mi interessano:
+                        </p>
+
+                        <ul>
+                            <li>Sistemi di comunicazione tra utenti.</li>
+                            <li>Servizi localizzati per l’internet of things e la domotica.</li>
+                            <li>Web app 3D openGL nei browsers.</li>
+                            <li>Crittografia e sicurezza dati.</li>
+                            <li>Sviluppo delle applicazioni mobile.</li>
+                            <li>Intelligenze Artificiali</li>
+                        </ul>
+
+                        <h4><b>Sulla programmazione</b></h4>
+
+                        <p>
+                            Mi piace scrivere algoritmi, ma non così tanto da volerlo fare e rifare all’infinito, quindi cerco di scrivere cose che
+                            possano essere facilmente riconfigurabili per riutilizzi futuro.
+                        </p>
+
+                        <p>
+                            trovo molto conveniente l’utilizzo di Node ed npm, sia per la vastità di software disponibile che per il sistema
+                            Linux-style di gestione dei pacchetti, con il quale mi sono trovato immediatamente a mio agio.
+                            Tendenzialmente sono un programmatore funzionale, ma quando è opportuno non ho problemi con
+                            l'approccio ad oggetti, incapsulamento e automazione dei processi.
+                        </p>
+
+                        <p>
+                            Come resistere al fascino di oggetti che creano e configurano altri oggetti che fanno cose a seconda della situazione?
+                        </p>
+
+                        <h3><b>Gli strumenti che utilizzo</b></h3>
+
+                        <h4><b>Sistemi operativi</b></h4>
+
+                        <p>
+                            Al di la delle preferenze personali, come programmatore trovo che l’utilizzo di sistemi Linux faciliti la vita e permetta di concentrarsi sulla scrittura. Non è da poco avere uno strumento che banalmente permetta di lanciare da un singolo terminale, server, client e database, con un singola linea di comando e non doversene più preoccupare per tutta la sessione.
+                            Ho utilizzato Ubuntu per molti anni dopodichè sono passato a Debian dalla versione 9. Installazione e transizione più facile di sempre.
+                        </p>
+
+                        <h4><b>Editor</b></h4>
+
+                        <p>
+                            Ho usato Sublime e Atom per un po’ di tempo poi sono passato ad Emacs per via della sua leggerezza e reattività. Ho scoperto un mondo.
+                        </p>
+
+                        <h4><b>Linguaggi</b></h4>
+
+                        <p>
+                            Javascript, html e CSS ed in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende. (PHP in todo list)
+                        </p>
+
+                        <h4><b>Piattaforme</b></h4>
+
+                        <p>
+                            Node e la quantità incredibile di pacchetti disponibili.
+                        </p>
+
+                        <h4><b>Frameworks</b></h4>
+
+                        <p>
+                            React e Bootstrap per le interfacce (Angular in todo list)
+                        </p>
 
 
-</div>
+                        <h4><b>Database</b></h4>
 
-</div>
-<div class="w3-third w3-center">
-      <!-- <i class="fa fa-anchor w3-padding-64 w3-text-red"></i> -->
-</div>
-</div>
-</div>
+                        <p>
+                            Mongo, scelta più conveniente da accoppiare con Javascript, anche considerando
+                            tutti gli strumenti che Node mette a disposizione per eseguire azioni e richieste sul database.
+                            Tra le varie opzioni preferisco Mongoose.
+                        </p>
+
+                        <h4><b>Backend</b></h4>
+                        <p>
+                            Costruzione server di comunicazione mediante Node Express, http-server.
+                        </p>
+
+                        <h4><b>Front End</b></h4>
+
+                        <p>
+                            creazione interfacce utente mediante React, Redux
+                        </p>
+
+                        <h4><b>Disponibilità</b></h4>
+
+                        <p>
+                            Sono decisamente disponibile
+                            Per focalizzare l’attenzione sulla programmazione sono passato da un lavoro fulltime ad un part time e sono
+                            totalmente orientato a questo tipo di professione, che a seguito di diverse considerazioni appare l’opzione migliore,
+                            specialmente ragionando in prospettiva.
+                            Sono contattabile direttamente da questa pagina
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <!-- Section 4: contacts -->
+    <section id="Contacts">
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-center">
+                    <h1>Contacts</h1>
+                    <!-- <h5 class="w3-padding-32">is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+                    <div>
+                        <form id="contact" action="https://formspree.io/xnqndqnn" method="POST">
+                            <input type="text" name="name" class="feedback-input" placeholder="Name" />
+                            <input type="text" name="email" class="feedback-input" placeholder="Email" />
+                            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                            <input type="submit" value="SUBMIT" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Section 4: contacts -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <!-- <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i> -->
-    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">
 
-    <div class="w3-twothird">
-      <h1>Contacts</h1>
-      <!-- <h5 class="w3-padding-32">is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
-      <div>
-        <form id="contact" action="https://formspree.io/xnqndqnn" method="POST">
-          <input type="text" name="name" class="feedback-input" placeholder="Name"/>
-          <input type="text" name="email" class="feedback-input" placeholder="Email"/>
-          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-          <input type="submit" value="SUBMIT"/>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+    </footer>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
- 
-</footer>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
 
 </body>
+
 </html>
