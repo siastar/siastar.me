@@ -220,8 +220,8 @@ textarea {
 html,
 body {
     font-family: Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 1.5
+    font-size: 17px;
+    line-height: 1.8
 }
 
 html {
@@ -1593,19 +1593,6 @@ a {
     background-color: #f44336 !important
 }
 
-.w3-custom1,
-.w3-hover-red:hover {
-    color: #fff !important;
-    background-color: #121b22 !important
-    /* #131118 */
-}
-
-.w3-custom-header,
-.w3-hover-red:hover {
-    color: #fff !important;
-    background-color: #131118 !important
-}
-
 .w3-sand,
 .w3-hover-sand:hover {
     color: #000 !important;
@@ -1808,14 +1795,6 @@ a {
     color: #757575 !important
 }
 
-.w3-text-custom1,
-.w3-hover-text-grey:hover,
-.w3-text-gray,
-.w3-hover-text-gray:hover {
-     text-align: justify;
-     text-justify: inter-word;
-     color: #aed6f1 !important
-}
 
 
 .w3-text-light-grey,
@@ -1990,5 +1969,30 @@ a {
     border-color: #e7ffff !important
 }
 
+/* custom added */
 
+.w3-custom1,
+.w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #121b22 !important
+    /* #131118 */
+}
 
+.w3-custom-header,
+.w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #131118 !important
+}
+
+.w3-text-custom1,
+.w3-hover-text-grey:hover,
+.w3-text-gray,
+.w3-hover-text-gray:hover {
+     text-align: justify;
+     text-justify: inter-word;
+     color: #aed6f1 !important
+}
+
+.min-height {
+  min-height: 800px;
+}
