@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/sitestyle.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">m
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="css/contact-form.css" rel="stylesheet">
@@ -37,22 +37,36 @@
     <!-- Navbar -->
     <div class="w3-top">
         <div class="w3-bar w3-custom1  w3-card w3-left-align w3-large">
-            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+
+	    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+	       href="javascript:void(0);"
+	       onclick="myFunction()"
+	       title="Toggle Navigation Menu"/>
             </a>
+	    
             <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-            <a href="#English" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">English</a>
-            <a href="#Italian" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Italian</a>
-            <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
+	    <a href="#English" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">English</a>
+	    <a href="#Italian" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Italian</a>
+	    <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
             <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">gitHub</a>
-        </div>
+
+	</div>
 
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
             <a href="#Home" class="w3-bar-item w3-button w3-padding-large">Home</a>
-            <a href="#English" class="w3-bar-item w3-button w3-padding-large">English</a>
-            <a href="#Italian" class="w3-bar-item w3-button w3-padding-large">Italian</a>
-            <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large">Contacts</a>
-	    <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-padding-large">gitHub</a>
+
+
+
+	    
+            <a href="#English" class="w3-bar-item w3-button w3-padding-large"
+	       onclick="myFunction()">English</a>
+            <a href="#Italian" class="w3-bar-item w3-button w3-padding-large"
+	       onclick="myFunction()">Italian</a>
+            <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large"
+	       onclick="myFunction()">Contacts</a>
+	    <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-padding-large"
+	       onclick="myFunction()">gitHub</a>
 	    
         </div>
     </div>
@@ -117,9 +131,11 @@
 		  <h2>English</h2>
                     <div class="w3-text-custom1">
                         <p><strong>ABOUT ME</strong></p>
-                        <p>What I do professionally is to provide technical solutions to a wide range of possible requirements in the IT environment and beyond.</p>
-                        <p>It is a type of activity in which I am quite good, partly because I am a very curious person, deeply interested in technology, but mostly because I read the documentation and the manuals (in addition to Stack Overflow, of course).</p>
-                        <p>I worked extensively in civil engineering, dealing with machinery programming, three-dimensional modeling, prototyping, cad cam design, etc. After that I spent several years with Applecare, both as a remote helpdesk and as a professional trainer, in different countries.</p>
+                        <p>What I do professionally, is to provide technical solutions to a wide range of possible requests in the IT environment and beyond.</p>
+                        <p>It is a type of activity in which I am quite good, partly because I am a very curious person, deeply interested in technology, but
+			  mostly because I read the documentation and the manuals (in addition to Stack Overflow, of course).</p>
+                        <p>I worked extensively in civil engineering, dealing with machinery programming, three-dimensional modeling, prototyping, cad cam design, etc.
+			  After that I spent several years with Applecare, both as a remote helpdesk and as a professional trainer, in different countries.</p>
                         <p>
                             <br>
                         </p>
@@ -129,16 +145,19 @@
                             <br>
                         </p>
                         <p><strong>WHAT DO I CODE</strong></p>
-                        <p>Narrowing down from "everything" to "something professionally applicable", I am interested in data management, CRUD operations and consequently interactions with databases.</p>
-                        <p>I also use React to build user interfaces (MERN Stack).</p>
+                        <p>Narrowing down from "everything" to "something professionally applicable", I am interested in data management, CRUD operations and consequently
+			  interactions with databases.</p>
+                        <p>I also use React to build user/admin interfaces and connect them with server and DB (MERN Stack).</p>
                         <p>
                             <br>
                         </p>
                         <p><strong>PROJECTS</strong>
-                            <br>&nbsp;I work on specific projects such as shopping carts, personal data, address books, archives with access, modification, creation and deletion function, reports, logins, interfaces for users and administrators.
+                          <br>&nbsp;I work on specific projects such as shopping carts, personal data, address books, archives with access, modification, creation and
+			  deletion function, reports, logins, interfaces for users and administrators.
                         </p>
-                        <p>Some projects are on gitHub, just in case someone wants to take a look.</p>
-                        <p>Among other things there is also a Simon Game, a bit raw but working, which was the first thing I wrote in Javascript and a RPG game in a super embryonic state, but writing which I met Node.</p>
+                        <p>Some of my projects are on gitHub, just in case someone wants to take a look.</p>
+                        <p>Among other things there is also a Simon Game, a bit raw but working, which was the first thing I wrote in Javascript and a RPG game (Hallo Sword!)
+			  in a super embryonic state, but writing which I met Node.</p>
                         <p>
                             <br>
                         </p>
@@ -157,18 +176,22 @@
                             <br>
                         </p>
                         <p><strong>ABOUT CODING</strong></p>
-                        <p>I do like write algorithms, but not so much that I want to do it over and over again, so I try to write things that can be easily configured for future reuse.</p>
+                        <p>I do like write algorithms, but not so much that I want to do it over and over again, so I try to write things that can be easily
+			  configured for future reuse.</p>
                         <p>I gladly use Node and npm, both for the vastness of software available and for the linux-style package management system.
                             <br>
-                            <br>&nbsp;It would seem that I am a functional programmer, (so they say). I don't know, but if on one hand I am fascinated by objects encapsulation and processes automation, as long as it is possible, I like to keep things simple.
+                            <br>&nbsp;It would seem that I am a functional programmer, (so they say). I don't know, but if on one hand I am fascinated
+			    by objects encapsulation and processes automation, as long as it is possible, I like to keep things simple.
                         </p>
                         <p>
                             <br>
                         </p>
                         <p><strong>MY TOOLS</strong></p>
                         <p><strong>OS</strong></p>
-                        <p style="margin-left: 20px;">From a programming point of view, I find that using Linux operating systems makes life a lot easier and allows you to concentrate on writing.</p>
-                        <p style="margin-left: 20px;">For example, due to the simplicity with which fundamental development tools are installed such as Apache, MySql, git etc, or with which a virtually unlimited number of servers, clients and databases can be launched and connected to one another.</p>
+                        <p style="margin-left: 20px;">From a programming point of view, I find that using Linux operating systems makes life a lot easier
+			  and allows you to concentrate on writing.</p>
+                        <p style="margin-left: 20px;">For example, due to the simplicity with which fundamental development tools are installed such as
+			  Apache, MySql, git etc, or with which a virtually unlimited number of servers, clients and databases can be launched and connected to one another.</p>
                         <p>
                             <br><strong>Editor</strong></p>
                         <p style="margin-left: 20px;">I started using Emacs while working on an old laptop where Sublime and Atom struggled. After that I never turned back.</p>
@@ -290,7 +313,7 @@
                         <p>
                         <br>
                         </p>
-                        <p><strong>DISPONIBILITA</strong></p>
+                        <p><strong>DISPONIBILITA'</strong></p>
                         <p>Rispondo a qualunque richiesta, valuto opzioni e sono disponibile a trasferimenti internazionali.</p>
                         <p>Per contatti e qualunque info aggiuntiva, sono raggiungibile attraverso il
                             <a href="#Contacts">form</a> a fondo pagina.
