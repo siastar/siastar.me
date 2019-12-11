@@ -2,6 +2,8 @@
 *.*#
 *.odt
 *.old
+test_*.*
+old_*-*
 .tern-port
-test.html
+
 

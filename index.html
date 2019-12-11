@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="css/contact-form.css" rel="stylesheet">
 <link href="css/icons-grid.css" rel="stylesheet">
+
 <style>
     body,
     h1,
@@ -55,19 +56,20 @@
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
             <a href="#Home" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="myFunction()">Home</a>
+	       onclick="toggleButton()">Home</a>
 	    <a href="#English" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="myFunction()">English</a>
+	       onclick="toggleButton()">English</a>
             <a href="#Italian" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="myFunction()">Italian</a>
+	       onclick="toggleButton()">Italian</a>
             <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="myFunction()">Contacts</a>
+	       onclick="toggleButton()">Contacts</a>
 	    <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="myFunction()">gitHub</a>
+	       onclick="toggleButton()">gitHub</a>
 	    
         </div>
-    </div>
+</div>
 
+    <!-- Section 0: header -->
     <!-- Section 0: header -->
     <section id="Home">
         <!-- Header -->
@@ -87,35 +89,52 @@
                 <div class="w3-center">
                     <!-- <h1>Welcome to my page</h1> -->
 
-                    <div>
-                        <div class="section group">
+		    <!-- icons grid -->
 
-                            <div class="col span_1_of_3">
-                                <img src="images/ico-HTML.png" alt="HTML" height="100" width="100" style="padding:10px">
-                                <br />
-                                <img src="images/ico-MongoDB.png" alt="MongoDB" height="100" width="100" style="padding:10px">
-                                <br />
-                                <img src="images/ico-ExpressJS.png" alt="Express JS" height="100" width="100" style="padding:10px">
-                            </div>
+		    <div class="icon-grid">
 
-                            <div class="col span_1_of_3">
-                                <img src="images/ico-CSS.png" alt="CSS" height="100" width="100" style="padding:10px">
-                                <br />
-                                <img src="images/ico-Webpack.png" alt="Webpack" height="100" width="100" style="padding:10px">
-                                <br />
-                                <img src="images/ico-ReduxJS.png" alt="Redux" height="100" width="100" style="padding:10px">
-                            </div>
+            <div class="icon">
+                <img src="images/ico-HTML.png" alt="HTML" height="100" width="100" style="padding:10px">
+            </div>
 
-                            <div class="col span_1_of_3">
-                                <img src="images/ico-Javascript.png" alt="Javascript" height="100" width="100" style="padding:10px">
-                                <br />
-                                <img src="images/ico-NodeJS.png" alt="Node JS" height="100" width="100" style="padding:10px">
-                                <br />
-                                <img src="images/ico-ReactJS.png" alt="React JS" height="100" width="100" style="padding:10px">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="icon">
+                <img src="images/ico-CSS.png" alt="CSS" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-Javascript.png" alt="Javascript" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-MongoDB.png" alt="MongoDB" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-Webpack.png" alt="Webpack" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-NodeJS.png" alt="Node JS" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-ExpressJS.png" alt="Express JS" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-ReduxJS.png" alt="Redux JS" height="100" width="100" style="padding:10px">
+            </div>
+
+            <div class="icon">
+                <img src="images/ico-ReactJS.png" alt="React JS" height="100" width="100" style="padding:10px">
+
+            </div>
+
+        </div>
+
+		    <!-- end of icons grid -->
+
+		</div>
             </div>
     </section>
 
@@ -353,7 +372,7 @@
 
     <script>
         // Used to toggle the menu on small screens when clicking on the menu button
-        function myFunction() {
+        function toggleButton() {
             var x = document.getElementById("navDemo");
             if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
