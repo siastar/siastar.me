@@ -1,4 +1,28 @@
+/* general settings*/
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+        font-size: 200px
+    }
+
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+
 html {#aed6f1
     box-sizing: border-box
 }
@@ -1974,7 +1998,7 @@ a {
 .w3-custom1,
 .w3-hover-red:hover {
     color: #fff !important;
-    background-color: #121b22 !important
+    background-color: #131118 !important
     /* #131118 */
 }
 
@@ -1995,4 +2019,17 @@ a {
 
 .min-height {
   min-height: 800px;
+}
+
+.w3-customcolor,
+.w3-hover-customcolor:hover {
+    color: red !important;
+    background-color: #grey !important
+}
+
+
+.menubutton,
+.menubutton-red:hover {
+    color: blue !important;
+    background-color: #131118 !important
 }

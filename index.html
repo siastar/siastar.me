@@ -11,26 +11,7 @@
 <link href="css/icons-grid.css" rel="stylesheet">
 
 <style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Lato", sans-serif
-    }
 
-    .w3-bar,
-    h1,
-    button {
-        font-family: "Montserrat", sans-serif
-    }
-
-    .fa-anchor,
-    .fa-coffee {
-        font-size: 200px
-    }
 </style>
 
 <body>
@@ -39,42 +20,42 @@
     <div class="w3-top">
         <div class="w3-bar w3-custom1  w3-card w3-left-align w3-large">
 
-	    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
-	       href="javascript:void(0);"
-	       onclick="myFunction()"
-	       title="Toggle Navigation Menu"/>
-            </a>
-	    
-            <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-	    <a href="#English" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">English</a>
-	    <a href="#Italian" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Italian</a>
-	    <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
-            <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">gitHub</a>
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-small w3-hover-customcolor w3-large menubutton"
+	     href="javascript:void(0);"
+	     onclick="toggleButton()"
+	     title="Toggle Navigation Menu" />
 
-	</div>
+	  <img src="images/3LinesButton.png"
+	       alt="menu"
+	       height="40"
+	       width="40"
+	       
+            </a>
+
+            <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#English" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">English</a>
+            <a href="#Italian" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">Italian</a>
+            <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">Contacts</a>
+            <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">gitHub</a>
+
+        </div>
 
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-            <a href="#Home" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="toggleButton()">Home</a>
-	    <a href="#English" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="toggleButton()">English</a>
-            <a href="#Italian" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="toggleButton()">Italian</a>
-            <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="toggleButton()">Contacts</a>
-	    <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-padding-large"
-	       onclick="toggleButton()">gitHub</a>
-	    
-        </div>
-</div>
+            <a href="#Home" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Home</a>
+            <a href="#English" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">English</a>
+            <a href="#Italian" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Italian</a>
+            <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Contacts</a>
+            <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">gitHub</a>
 
-    <!-- Section 0: header -->
+        </div>
+    </div>
+
     <!-- Section 0: header -->
     <section id="Home">
         <!-- Header -->
-        <header class="w3-container w3-custom-header w3-center" style="padding:64px 16px">
-            <h3 class="w3-margin w3-jumbo">S!4star</h3>
+        <header class="w3-container w3-custom-header w3-center">
+            <h3 class="w3-margin w3-jumbo">S14star</h3>
             <h6>Simone Astarita</h6>
 
             <!-- <p class="w3-xlarge">Template by w3.css</p> -->
@@ -86,55 +67,55 @@
     <section id="Icons" class="min-height">
         <div class="w3-row-padding w3-padding-64 w3-container">
             <div class="w3-content">
+
                 <div class="w3-center">
                     <!-- <h1>Welcome to my page</h1> -->
 
-		    <!-- icons grid -->
+                    <!-- icons grid -->
 
-		    <div class="icon-grid">
+                    <div class="icon-grid">
 
-            <div class="icon">
-                <img src="images/ico-HTML.png" alt="HTML" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-HTML.png" alt="HTML" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-CSS.png" alt="CSS" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-CSS.png" alt="CSS" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-Javascript.png" alt="Javascript" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-Javascript.png" alt="Javascript" height="100" width="100" style="padding:10px">
+                        </div>
+                        <div class="icon">
+                            <img src="images/ico-MongoDB.png" alt="MongoDB" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-MongoDB.png" alt="MongoDB" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-Webpack.png" alt="Webpack" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-Webpack.png" alt="Webpack" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-NodeJS.png" alt="Node JS" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-NodeJS.png" alt="Node JS" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-ExpressJS.png" alt="Express JS" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-ExpressJS.png" alt="Express JS" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-ReduxJS.png" alt="Redux JS" height="100" width="100" style="padding:10px">
+                        </div>
 
-            <div class="icon">
-                <img src="images/ico-ReduxJS.png" alt="Redux JS" height="100" width="100" style="padding:10px">
-            </div>
+                        <div class="icon">
+                            <img src="images/ico-ReactJS.png" alt="React JS" height="100" width="100" style="padding:10px">
 
-            <div class="icon">
-                <img src="images/ico-ReactJS.png" alt="React JS" height="100" width="100" style="padding:10px">
+                        </div>
 
-            </div>
+                    </div>
 
-        </div>
+                    <!-- end of icons grid -->
 
-		    <!-- end of icons grid -->
-
-		</div>
+                </div>
             </div>
     </section>
 
@@ -143,15 +124,15 @@
         <div class="w3-row-padding w3-padding-64 w3-container">
             <div class="w3-content">
                 <div class="w3-center">
-		  <hr>
-		  <h2>English</h2>
+                    <hr>
+                    <h2>English</h2>
                     <div class="w3-text-custom1">
                         <p><strong>ABOUT ME</strong></p>
                         <p>What I do professionally, is to provide technical solutions to a wide range of possible requests in the IT environment and beyond.</p>
                         <p>It is a type of activity in which I am quite good, partly because I am a very curious person, deeply interested in technology, but
-			  mostly because I read the documentation and the manuals (in addition to Stack Overflow, of course).</p>
+                            mostly because I read the documentation and the manuals (in addition to Stack Overflow, of course).</p>
                         <p>I worked extensively in civil engineering, dealing with machinery programming, three-dimensional modeling, prototyping, cad cam design, etc.
-			  After that I spent several years with Applecare, both as a remote helpdesk and as a professional trainer, in different countries.</p>
+                            After that I spent several years with Applecare, both as a remote helpdesk and as a professional trainer, in different countries.</p>
                         <p>
                             <br>
                         </p>
@@ -162,18 +143,18 @@
                         </p>
                         <p><strong>WHAT DO I CODE</strong></p>
                         <p>Narrowing down from "everything" to "something professionally applicable", I am interested in data management, CRUD operations and consequently
-			  interactions with databases.</p>
+                            interactions with databases.</p>
                         <p>I also use React to build user/admin interfaces and connect them with server and DB (MERN Stack).</p>
                         <p>
                             <br>
                         </p>
                         <p><strong>PROJECTS</strong>
-                          <br>&nbsp;I work on specific projects such as shopping carts, personal data, address books, archives with access, modification, creation and
-			  deletion function, reports, logins, interfaces for users and administrators.
+                            <br>&nbsp;I work on specific projects such as shopping carts, personal data, address books, archives with access, modification, creation and
+                            deletion function, reports, logins, interfaces for users and administrators.
                         </p>
                         <p>Some of my projects are on gitHub, just in case someone wants to take a look.</p>
                         <p>Among other things there is also a Simon Game, a bit raw but working, which was the first thing I wrote in Javascript and a RPG game (Hallo Sword!)
-			  in a super embryonic state, but writing which I met Node.</p>
+                            in a super embryonic state, but writing which I met Node.</p>
                         <p>
                             <br>
                         </p>
@@ -193,11 +174,11 @@
                         </p>
                         <p><strong>ABOUT CODING</strong></p>
                         <p>I do like write algorithms, but not so much that I want to do it over and over again, so I try to write things that can be easily
-			  configured for future reuse.</p>
+                            configured for future reuse.</p>
                         <p>I gladly use Node and npm, both for the vastness of software available and for the linux-style package management system.
                             <br>
                             <br>&nbsp;It would seem that I am a functional programmer, (so they say). I don't know, but if on one hand I am fascinated
-			    by objects encapsulation and processes automation, as long as it is possible, I like to keep things simple.
+                            by objects encapsulation and processes automation, as long as it is possible, I like to keep things simple.
                         </p>
                         <p>
                             <br>
@@ -205,9 +186,9 @@
                         <p><strong>MY TOOLS</strong></p>
                         <p><strong>OS</strong></p>
                         <p style="margin-left: 20px;">From a programming point of view, I find that using Linux operating systems makes life a lot easier
-			  and allows you to concentrate on writing.</p>
+                            and allows you to concentrate on writing.</p>
                         <p style="margin-left: 20px;">For example, due to the simplicity with which fundamental development tools are installed such as
-			  Apache, MySql, git etc, or with which a virtually unlimited number of servers, clients and databases can be launched and connected to one another.</p>
+                            Apache, MySql, git etc, or with which a virtually unlimited number of servers, clients and databases can be launched and connected to one another.</p>
                         <p>
                             <br><strong>Editor</strong></p>
                         <p style="margin-left: 20px;">I started using Emacs while working on an old laptop where Sublime and Atom struggled. After that I never turned back.</p>
@@ -235,7 +216,7 @@
                             <br>
                             <br>I respond to any request, evaluate options and I am available to transfer.
                             <br>
-                            <br>&nbsp;For contacts and any additional info, I can be reached through the  <a href="#Contacts">form</a> at the bottom of the page.
+                            <br>&nbsp;For contacts and any additional info, I can be reached through the <a href="#Contacts">form</a> at the bottom of the page.
                         </p>
                         <p>
                             <br>
@@ -253,8 +234,8 @@
         <div class="w3-row-padding w3-padding-64 w3-container">
             <div class="w3-content">
                 <div class="w3-center">
-		  <hr>
-		    <h2>Italiano</h2>
+                    <hr>
+                    <h2>Italiano</h2>
                     <div class="w3-text-custom1">
 
                         <p><strong>SU DI ME</strong></p>
@@ -262,17 +243,17 @@
                         <p>E’ un tipo di attività nella quale sono piuttosto bravo, un po’ perchè sono molto curioso e profondamente interessato alle tecnologie, ma più che altro perchè leggo la documentazione ed i manuali (oltre a Stack Overflow, ovviamente).</p>
                         <p>Ho lavorato a lungo nell'ingegneria civile occupandomi di programmazione macchine, modellazione tridimensionale, prototipazione, disegno cad cam etc. Dopodichè sono stato per diversi anni con Applecare, sia come helpdesk remoto che come trainer professionale, in diversi paesi.</p>
                         <p>
-                        <br>
+                            <br>
                         </p>
                         <p><strong>PERCHE' PROGRAMMO</strong></p>
                         <p>Mi piace scrivere codice perché in ultima analisi è uno strumento di applicazione della creatività con cui è possibile fare quasi tutto. Almeno in teoria.</p>
                         <p>
-			<br>
+                            <br>
                         </p>
                         <p><strong>COSA POSSO PROGRAMMARE</strong></p>
                         <p>Restringendo il campo da “tutto” a “qualcosa di professionalmente applicabile”, mi interesso di gestione dei dati, operazioni CRUD e di conseguenza delle interazioni con i database, inoltre utilizzo React per costruire interfacce utente (MERN Stack).</p>
                         <p>
-                        <br>
+                            <br>
                         </p>
                         <p><strong>PROGETTI</strong></p>
                         <p>Lavoro su progetti specifici come shopping carts, anagrafiche, rubriche, archivi con funzioni di accesso, modifica, creazione ed eliminazione, reportistica, login, interfacce per utenti ed amministratori.</p>
@@ -292,14 +273,14 @@
                             <li style="line-height: 2;">Intelligenze Artificiali.</li>
                         </ul>
                         <p>
-                        <br>
+                            <br>
                         </p>
                         <p><strong>SULLA PROGRAMMAZIONE</strong></p>
                         <p>Mi piace scrivere algoritmi, ma non così tanto da volerlo fare e rifare all’infinito, quindi cerco di scrivere cose che possano essere facilmente configurabili per riutilizzi futuro.</p>
                         <p>Utilizzo volentieri Node ed npm, sia per la vastità di software disponibile che per il sistema linux-style di gestione dei pacchetti.</p>
                         <p>Sembrerebbe che io sia un programmatore funzionale, così dicono. Non saprei, ma se da una parte mi affascinano l’incapsulamento degli oggetti e l’automazione dei processi, finchè è possibile, mi piace tenere le cose semplici.</p>
                         <p>
-                        <br>
+                            <br>
                         </p>
                         <p><strong>GLI STRUMENTI CHE UTILIZZO</strong></p>
                         <p><strong>OS</strong></p>
@@ -311,23 +292,23 @@
                         <p><strong>Editor</strong></p>
                         <p style="margin-left: 20px;">Ho iniziato a usare Emacs lavorando su un vecchio portatile dove Sublime ed Atom facevano fatica. Dopo non sono più tornato indietro.</p>
                         <p style="margin-left: 40px;">
-                        <br>
+                            <br>
                         </p>
                         <p><strong>Linguaggi di programmazione</strong></p>
                         <p style="margin-left: 20px;">Scrivo Javascript, html e CSS, in passato ho utilizzato C++ per creare gestionali specifici per piccole aziende.</p>
                         <p style="margin-left: 20px;">(PHP in todo list)</p>
                         <p style="margin-left: 40px;">
-                        <br>
+                            <br>
                         </p>
                         <p><strong>Piattaforme, Framework e Database</strong></p>
-			<br>
+                        <br>
                         <p style="margin-left: 20px;">Node e la quantità incredibile di pacchetti disponibili (npm).</p>
                         <p style="margin-left: 20px;">React e Bootstrap (Angular in todo list).</p>
                         <p style="margin-left: 20px;">Mongo Database e Mongoose.</p>
                         <p style="margin-left: 20px;">Node Express, http-server.</p>
                         <p style="margin-left: 20px;">Creazione interfacce utente mediante React e Redux.</p>
                         <p>
-                        <br>
+                            <br>
                         </p>
                         <p><strong>DISPONIBILITA'</strong></p>
                         <p>Rispondo a qualunque richiesta, valuto opzioni e sono disponibile a trasferimenti internazionali.</p>
