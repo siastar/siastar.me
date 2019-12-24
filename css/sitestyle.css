@@ -617,7 +617,10 @@ a {
     border: none;
     white-space: normal;
     float: none;
-    outline: 0
+    outline: 0;
+    color: red;
+    background-color: #13151a;
+		 
 }
 
 .w3-bar-block.w3-center .w3-bar-item {
@@ -1492,10 +1495,10 @@ a {
     float: right !important
 }
 
-.w3-button:hover {
-    color: #000 !important;
-    background-color: #ccc !important
-}
+/* .w3-button:hover { */
+/*     color: #000 !important; */
+/*     background-color: #ccc !important */
+/* } */
 
 .w3-transparent,
 .w3-hover-none:hover {
@@ -1993,14 +1996,30 @@ a {
     border-color: #e7ffff !important
 }
 
-/* custom added */
+/*## custom added ########################################################################################*/
+
+
 
 .w3-custom1,
 .w3-hover-red:hover {
     color: #fff !important;
-    background-color: #131118 !important
+    background-color: #2b2834  !important
     /* #131118 */
 }
+
+
+
+.navbar-link-color,
+.w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #2b2834  !important
+    /* #131118 */
+}
+
+
+
+
+
 
 .w3-custom-header,
 .w3-hover-red:hover {
@@ -2023,13 +2042,51 @@ a {
 
 .w3-customcolor,
 .w3-hover-customcolor:hover {
-    color: red !important;
-    background-color: #grey !important
+    color: #62bbec !important;
+    background-color: #0a0b0f !important
 }
 
 
 .menubutton,
-.menubutton-red:hover {
+.menubutton:hover {
     color: blue !important;
-    background-color: #131118 !important
+    background-color: #131118 !important;
+    
+			      
 }
+
+
+.home-button-color,
+.home-button-color:hover {
+    color: #afffa7 !important;
+    background-color: #1E2123 !important
+}
+
+.home-button-color:hover {
+    color: #000 !important;
+    background-color: #75ef85 !important
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #7a7ad7 !important
+}
+
+.w3-right {
+    float: right !important
+}
+
+.topscroller {
+
+  position: fixed;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  display: none;  
+}
+
+
+/* #4A8CB2  #7a7ad7*/

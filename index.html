@@ -3,24 +3,22 @@
 <title>siastar.me</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/sitestyle.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">m
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="css/contact-form.css" rel="stylesheet">
-<link href="css/icons-grid.css" rel="stylesheet">
+<link rel="stylesheet" href="css/sitestyle.css">
+<link rel="stylesheet" href="css/contact-form.css" >
+<link rel="stylesheet" href="css/icons-grid.css" >
 
-<style>
-
-</style>
 
 <body>
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar w3-custom1  w3-card w3-left-align w3-large">
+      <div class="w3-bar w3-custom1 w3-card w3-left-align w3-large">
+	<a href="#Home" class="w3-hide-large w3-hide-medium w3-bar-item w3-button w3-padding-large">Siastar</a>
 
-          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-small w3-hover-customcolor w3-large menubutton"
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-small w3-hover-customcolor w3-large "
 	     href="javascript:void(0);"
 	     onclick="toggleButton()"
 	     title="Toggle Navigation Menu" />
@@ -32,38 +30,49 @@
 	       
             </a>
 
-            <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#Home" class="w3-hide-small w3-bar-item w3-button w3-padding-large home-button-color">Home</a>
             <a href="#English" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">English</a>
             <a href="#Italian" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">Italian</a>
-            <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">Contacts</a>
-            <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">gitHub</a>
+            <a href="#Contacts" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor">Contact Me</a>
+            <a href="https://github.com/siastar/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-customcolor w3-text-cyan">gitHub</a>
 
         </div>
 
-        <!-- Navbar on small screens -->
+        <!-- Menu on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
             <a href="#Home" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Home</a>
             <a href="#English" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">English</a>
             <a href="#Italian" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Italian</a>
-            <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Contacts</a>
-            <a href="https://github.com/ytze/" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">gitHub</a>
+            <a href="#Contacts" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">Contact Me</a>
+            <a href="https://github.com/siastar/" class="w3-bar-item w3-button w3-padding-large" onclick="toggleButton()">gitHub</a>
 
         </div>
     </div>
 
-    <!-- Section 0: header -->
-    <section id="Home">
-        <!-- Header -->
-        <header class="w3-container w3-custom-header w3-center">
-            <h3 class="w3-margin w3-jumbo">S14star</h3>
-            <h6>Simone Astarita</h6>
 
-            <!-- <p class="w3-xlarge">Template by w3.css</p> -->
-            <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+
+<section id="Home">
+  
+      <!-- Header large and medium display-->
+      <br/>
+        <header class="w3-container w3-custom-header w3-center w3-hide-small">
+	    <h4 class="w3-margin w3-jumbo">Siastar</h4>
+            <h4>Simone Astarita</h4>
         </header>
+
+	<!-- Header small display -->
+        <header
+	    id ="mobile-header"
+	    class="w3-container w3-custom-header w3-center w3-hide-large w3-hide-medium">
+	  <div>
+	    <br/>
+		<h1>Siastar</h1>
+		<h4>Simone Astarita</h4>
+	    </div>
+        </header>
+
     </section>
 
-    <!-- Section 1: icons -->
     <section id="Icons" class="min-height">
         <div class="w3-row-padding w3-padding-64 w3-container">
             <div class="w3-content">
@@ -74,6 +83,11 @@
                     <!-- icons grid -->
 
                     <div class="icon-grid">
+
+		      
+                        <div class="icon">
+                            <img src="images/ico-GNULinux.png" alt="GNU Linux" height="100" width="100" style="padding:10px">
+                        </div>
 
                         <div class="icon">
                             <img src="images/ico-HTML.png" alt="HTML" height="100" width="100" style="padding:10px">
@@ -111,6 +125,11 @@
 
                         </div>
 
+                        <div class="icon">
+                            <img src="images/ico-Git.png" alt="git" height="100" width="100" style="padding:10px">
+                        </div>
+
+			
                     </div>
 
                     <!-- end of icons grid -->
@@ -173,12 +192,12 @@
                             <br>
                         </p>
                         <p><strong>ABOUT CODING</strong></p>
-                        <p>I do like write algorithms, but not so much that I want to do it over and over again, so I try to write things that can be easily
+                        <p>I do like writing algorithms, but not so much that I want to do it over and over again, so I try to write things that can be easily
                             configured for future reuse.</p>
                         <p>I gladly use Node and npm, both for the vastness of software available and for the linux-style package management system.
                             <br>
                             <br>&nbsp;It would seem that I am a functional programmer, (so they say). I don't know, but if on one hand I am fascinated
-                            by objects encapsulation and processes automation, as long as it is possible, I like to keep things simple.
+                            by objects encapsulation and processes automation, on the other, as long as it is possible, I like to keep things simple.
                         </p>
                         <p>
                             <br>
@@ -187,8 +206,9 @@
                         <p><strong>OS</strong></p>
                         <p style="margin-left: 20px;">From a programming point of view, I find that using Linux operating systems makes life a lot easier
                             and allows you to concentrate on writing.</p>
-                        <p style="margin-left: 20px;">For example, due to the simplicity with which fundamental development tools are installed such as
-                            Apache, MySql, git etc, or with which a virtually unlimited number of servers, clients and databases can be launched and connected to one another.</p>
+                        <p style="margin-left: 20px;">Just to mention a couple of reasons, it results very easy to install fundamental development tools such as
+                          Apache, MySql, git etc, or still, the remarkable semplicity with which is possible to handle a virtually unlimited number of servers, clients and databases
+			  that can be launched and connected each other.</p>
                         <p>
                             <br><strong>Editor</strong></p>
                         <p style="margin-left: 20px;">I started using Emacs while working on an old laptop where Sublime and Atom struggled. After that I never turned back.</p>
@@ -331,7 +351,7 @@
         <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
             <div class="w3-content">
                 <div class="w3-center">
-                    <h1>Contacts</h1>
+                    <h1>Contact Me</h1>
                     <!-- <h5 class="w3-padding-32">is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
                     <div>
                         <form id="contact" action="https://formspree.io/xnqndqnn" method="POST">
@@ -351,17 +371,7 @@
 
     </footer>
 
-    <script>
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function toggleButton() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
+    <script type="text/javascript" src="js/siastar.js"></script>
 
 </body>
 
